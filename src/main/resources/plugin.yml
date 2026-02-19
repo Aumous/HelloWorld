@@ -1,0 +1,7 @@
+name: FoliaEspGuard
+main: dev.helloworld.foliaespguard.FoliaEspGuardPlugin
+version: 1.0.0
+api-version: '1.21'
+folia-supported: true
+author: codex
+description: Hides configured blocks and block entities from distant players.
