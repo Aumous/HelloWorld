@@ -1,0 +1,35 @@
+# Distance in chunks where hidden blocks become visible.
+radius-chunks: 2
+
+# Block type shown to players when a protected block is outside the radius.
+mask-material: STONE
+
+# Hide every block entity (chests, furnaces, signs, etc.) while outside the radius.
+hide-all-block-entities: true
+
+# Also hide any block implementing inventory storage behavior.
+hide-storage-blocks: true
+
+# Extra block materials to hide while outside the radius.
+extra-blocks:
+  - TORCH
+  - LANTERN
+  - GOLD_BLOCK
+  - EMERALD_BLOCK
+  - DIAMOND_BLOCK
+  - NETHERITE_BLOCK
+  - IRON_BLOCK
+  - CRAFTING_TABLE
+  - FURNACE
+  - BLAST_FURNACE
+  - SMOKER
+  - ANVIL
+  - CHIPPED_ANVIL
+  - DAMAGED_ANVIL
+  - ENCHANTING_TABLE
+  - CARTOGRAPHY_TABLE
+  - FLETCHING_TABLE
+  - SMITHING_TABLE
+  - LOOM
+  - STONECUTTER
+  - GRINDSTONE
